@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 000865b2a10bf884c9a93e669ab8d6c3, type: 3}
+  m_Name: ColumnSpawnerCfg
+  m_EditorClassIdentifier: 
+  _columnPrefab: {fileID: -1251943354302024683, guid: 2590bf75c9997f54b8e450f1ccb0652c, type: 3}
+  _bridgePrefab: {fileID: 657788919350484732, guid: c73e854bc008658499c1111b1e99c852, type: 3}
+  _columnSpawnerPrefab: {fileID: 1126489139788468900, guid: f0188ea56f6a90149bdc60f1505f43c4, type: 3}
+  _minColumnWidth: 0.5
+  _maxColumnWidth: 1.2
