@@ -2,6 +2,6 @@
 {
     public override void Enter()
     {
-        StateMachine.EnterState<PlayingState>();
+        StateMachine.EnterState<BuildingState>();
     }
 }

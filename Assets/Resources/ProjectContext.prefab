@@ -77,4 +77,6 @@ MonoBehaviour:
   _bridgeGrowerCfg: {fileID: 11400000, guid: c72e5d3713d3c494585d40051cd47209, type: 2}
   _bridgeRotatorCfg: {fileID: 11400000, guid: 155454b8ce4a578408b13af2d891700c, type: 2}
   _columnSpawnerCfg: {fileID: 11400000, guid: de0d5e9e712c8aa4382b6860ba8bc860, type: 2}
+  _columnSpawnPointsCfg: {fileID: 11400000, guid: bea16c5d8979895468db266fe3433cea, type: 2}
   _playerController: {fileID: 811226524421500354, guid: d37471fbfe2bdf048bd49ee18fc7c2e2, type: 3}
+  _columnSpawnPoints: {fileID: 8390404862037712713, guid: 24debdd752425124daeb3abb97e8ebe6, type: 3}

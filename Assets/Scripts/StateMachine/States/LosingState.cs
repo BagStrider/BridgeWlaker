@@ -22,6 +22,6 @@ public class WinningState : State
     {
 
 
-        StateMachine.EnterState<PlayingState>();
+        StateMachine.EnterState<BuildingState>();
     }
 }

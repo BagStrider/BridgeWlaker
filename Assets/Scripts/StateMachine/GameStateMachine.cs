@@ -6,7 +6,7 @@ public class GameStateMachine : StateMachine
     {
         AddState(container.Instantiate<InstallingState>());
         AddState(container.Instantiate<BootstrapState>());
-        AddState(container.Instantiate<PlayingState>());
+        AddState(container.Instantiate<BuildingState>());
         AddState(container.Instantiate<LosingState>());
         AddState(container.Instantiate<EndingState>());
     }
