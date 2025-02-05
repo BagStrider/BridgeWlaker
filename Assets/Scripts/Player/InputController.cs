@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class PlayerController : MonoBehaviour
+public class InputController : MonoBehaviour
 {
     public event Action Pressed;
     public event Action Released;

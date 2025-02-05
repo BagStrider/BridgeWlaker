@@ -6,6 +6,7 @@ public class InstallingState : State
     public InstallingState(DiContainer container)
     {
         container.Bind<BridgeGrower>().AsSingle();
+        container.Bind<ColumnPair>().AsSingle();
 
         ColumnSpawnerConfig columnSpawnerCfg = container.Resolve<ColumnSpawnerConfig>();
         GameObject columnSpawnerInst = container.InstantiatePrefab(columnSpawnerCfg.ColumnSpawnerPrefab);

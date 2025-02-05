@@ -8,7 +8,7 @@ public class ProjectInstaller : MonoInstaller
     [SerializeField] private BridgeRotatorConfig _bridgeRotatorCfg;
     [SerializeField] private ColumnSpawnerConfig _columnSpawnerCfg;
     [SerializeField] private ColumnSpawnPointsConfig _columnSpawnPointsCfg;
-    [SerializeField] private PlayerController _playerController;
+    [SerializeField] private InputController _playerController;
     [SerializeField] private ColumnMover _columnSpawnPoints;
     
     public override void InstallBindings()
@@ -22,7 +22,7 @@ public class ProjectInstaller : MonoInstaller
     private void BindPlayerController()
     {
         GameObject playerController = Container.InstantiatePrefab(_playerController);
-        Container.Bind<PlayerController>().FromInstance(playerController.GetComponent<PlayerController>()).AsSingle();
+        Container.Bind<InputController>().FromInstance(playerController.GetComponent<InputController>()).AsSingle();
     }
 
     private void BindColumnSpawnPoints()
